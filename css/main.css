@@ -1,0 +1,162 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 200px 50px 50px 50px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align:center ;
+  margin-bottom: 50px;
+}
+.image{
+  width: 35%;
+  object-fit: contain;
+  float: right;
+}
+.main {
+  width: 60%;
+  margin: 20px;
+}
+.bg{
+  background-image:url(../images/sample_menu_bg.jpg);
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  background-attachment: fixed;
+  object-fit: contain;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.pancake {
+  width:49%;
+  background-color: white;
+  margin: 30px 10px 60px 
+}
+.pancake_image{
+  width:55%;
+  float: left;
+}
+.blueberry{
+  padding: 10px;
+}
+
+.pancake_container{
+  display: flex;
+}
+.center {
+  text-align: center;
+}
+.flex_box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.flex_box_item {
+  width: 49%;
+  display: flex;
+  margin: 5px;
+  padding: auto;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+.menu_box {
+  width: 80%;
+}
+.flex_box{
+  display: flex;
+}
+.access{
+  width: 80px;
+}
+.map{
+  width:100% ;
+}
+.foot{
+  background-color: #251e19;
+  color: white;
+  height: 75px;
+}
+.flex_box_foot{
+  display: flex;
+  justify-content: center;
+}
+.home {
+  margin: 5px;
+}
+.img_sample{
+  height: 24px;
+}
+.copy {
+  text-align: center;
+  font-size: 10px;
+}
+a {
+  text-decoration:none;
+  color: white;
+}
